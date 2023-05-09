@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20%;
+
+}
+.aligncenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0px;
+
+}
+.alignleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0px;
+}
+.team{
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.zeros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #EEEEEE;
+    font-size: 80px;
+   
+}
+.blkbox{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 30px 100px;
+    margin-bottom: 20%;
+    border-radius: 5px;
+    
+}
+#home-num{
+    font-family: 'myFirstFont';
+    /* font-weight: 400;
+    font-size: 90px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: #F94F6D;
+}
+#guest-num{
+    font-family: 'myFirstFont';
+    /* font-weight: 400;
+    font-size: 90px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: #F94F6D;
+}
+.home-button{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.guest-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(font\CursedTimerUlil-Aznm.ttf);
+}
+#no1{
+    background-color: transparent;
+    border:2px solid #9AABD8 ;
+    color: #9AABD8;
+}
+button{
+    font-size: 50px;
+    background-color: transparent;
+    border:2px solid #9AABD8 ;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+.reset{
+    display: flex;
+    align-items: flex-end;
+}
